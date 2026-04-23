@@ -87,8 +87,7 @@ int main() {
     // Output the expanded image
     for (int i = 0; i < 3 * m; i++) {
         for (int j = 0; j < 3 * n; j++) {
-            cout << expanded[i][j];
-            if (j < 3 * n - 1) cout << " ";
+            cout << expanded[i][j] << " ";
         }
         cout << endl;
     }
